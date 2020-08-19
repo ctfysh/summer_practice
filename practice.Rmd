@@ -1,0 +1,108 @@
+---
+title: "物质循环过程模拟与仿真"
+subtitle: "——基于南京大学环境虚拟仿真实验平台"  
+author: "盛虎&emsp;庒裕杰&emsp;袁增伟"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css:
+      - xaringan-themer.css
+      - custom.css
+      - css/fonts.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+    seal: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(Cairo)
+knitr::opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  dev = "CairoSVG",
+  out.width = "100%",
+  fig.height = 5
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(fontawesome)
+library(xaringanthemer)
+library(raster)
+style_mono_light(
+  base_color = "#23395b",
+  title_slide_text_color = "#E6FFFB",
+  title_slide_background_color = "#E9EBEE",
+  title_slide_background_image = "img/virtual.jpg",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google =
+    google_font("Montserrat", "300", "300i"),
+  code_font_google = google_font("Fira Mono"),
+  colors = c(
+    red = "#f34213",
+    purple = "#3e2f5b",
+    orange = "#ff8811",
+    green = "#136f63",
+    white = "#FFFFFF"
+  )
+)
+extra_css <- list(
+  ".small" = list("font-size" = "90%"),
+  ".large" = list("font-size" = "130%"),
+  ".full-width" = list(
+    display = "flex",
+    width   = "100%",
+    flex    = "1 1 auto"
+  )
+)
+style_extra_css(css = extra_css, outfile = "custom.css")
+# style_duo_accent(
+#   primary_color = "#1381B0",
+#   secondary_color = "#FF961C",
+#   inverse_header_color = "#FFFFFF"
+# )
+```
+
+class: inverse, center, middle
+
+# 虚拟仿真实验室简介
+
+---
+
+<embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&amp;v=20161117&amp;vid=b0700dfyzz1&amp;auto=0" allowfullscreen="true" quality="high" padding-bottom="100%" width="100%" height="100%" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">
+
+---
+
+class: inverse, center, middle
+
+# 虚拟仿真实验操作平台
+
+---
+
+<iframe  
+  height=100%
+  width=100% 
+  src="https://envirlab.netlify.app"  
+  frameborder=0  
+  allowfullscreen>
+</iframe>
+
+---
+
+<iframe  
+  height=100%
+  width=100% 
+  src="http://jsxngx.seu.edu.cn/XnfzZy/10284/njumcs/u3dpro/index.html?token=http://jsxngx.seu.edu.cn/XnfzZy/10284/njumcs/index.html&Cent=61"  
+  frameborder=0  
+  allowfullscreen>
+</iframe>
+
+
+
+
+
