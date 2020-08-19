@@ -94,15 +94,20 @@ class: inverse, center, middle
 
 ---
 
-<iframe  
-  height=100%
-  width=100% 
-  src="http://jsxngx.seu.edu.cn/XnfzZy/10284/njumcs/u3dpro/index.html?token=http://jsxngx.seu.edu.cn/XnfzZy/10284/njumcs/index.html&Cent=61"  
-  frameborder=0  
-  allowfullscreen>
-</iframe>
+background-image: url(img/simulation3d.jpg)
+background-size: cover
+class: center, bottom, inverse
+
+<!-- <iframe   -->
+<!--   height=100% -->
+<!--   width=100%  -->
+<!--   src="http://jsxngx.seu.edu.cn/XnfzZy/10284/njumcs/u3dpro/index.html?token=http://jsxngx.seu.edu.cn/XnfzZy/10284/njumcs/index.html&Cent=61"   -->
+<!--   frameborder=0   -->
+<!--   allowfullscreen> -->
+<!-- </iframe> -->
 
 
+[.red[点击此处]](http://jsxngx.seu.edu.cn/XnfzZy/10284/njumcs/u3dpro/index.html?token=http://jsxngx.seu.edu.cn/XnfzZy/10284/njumcs/index.html&Cent=61)
 
 
 
