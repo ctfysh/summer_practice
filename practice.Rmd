@@ -1,7 +1,7 @@
 ---
 title: "物质循环过程模拟与仿真"
 subtitle: "——基于南京大学环境虚拟仿真实验平台"  
-author: "盛虎&emsp;庒裕杰&emsp;袁增伟"
+author: "庒裕杰&emsp;盛虎&emsp;袁增伟"
 date: '`r Sys.Date()`'
 output:
   xaringan::moon_reader:
@@ -76,6 +76,53 @@ class: inverse, center, middle
 
 <embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&amp;v=20161117&amp;vid=b0700dfyzz1&amp;auto=0" allowfullscreen="true" quality="high" padding-bottom="100%" width="100%" height="100%" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">
 
+
+---
+
+class: inverse, center, middle
+
+# 虚拟仿真实验数据
+
+---
+
+.pull-left[
+## 1 S-P模型
+
+模型文件：
+
+- [S-P模型实验素材](data/SP模型)
+
+<br> 
+<br> 
+
+## 2 中国磷循环模拟
+
+模型文件：
+
+- [畜禽养殖系统模型实验素材](data/畜禽养殖模型)
+]
+
+.pull-right[
+## 3 中国磷循环仿真
+
+数据资料：
+
+1. [N01.大气](data/N01.大气.csv)
+1. [N02.非耕地](data/N02.非耕地.csv)
+1. [N03.内陆水体](data/N03.内陆水体.csv)
+1. [N04.海洋](data/N04.海洋.csv)
+1. [N05.采掘业](data/N05.采掘业.csv)
+1. [N06.磷化工业](data/N06.磷化工业.csv)
+1. [N07.农业种植](data/N07.农业种植.csv)
+1. [N08.畜禽养殖](data/N08.畜禽养殖.csv)
+1. [N09.水产养殖](data/N09.水产养殖.csv)
+1. [N10.农副产品加工](data/N10.农副产品加工.csv)
+1. [N11.人类消费](data/N11.人类消费.csv)
+1. [N12.废水处理](data/N12.废水处理.csv)
+1. [N13.废固处理](data/N13.废固处理.csv)
+]
+
+
 ---
 
 class: inverse, center, middle
@@ -108,6 +155,17 @@ class: center, bottom, inverse
 
 
 [.red[点击此处]](http://jsxngx.seu.edu.cn/XnfzZy/10284/njumcs/u3dpro/index.html?token=http://jsxngx.seu.edu.cn/XnfzZy/10284/njumcs/index.html&Cent=61)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
