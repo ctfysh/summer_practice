@@ -99,7 +99,7 @@ class: inverse, center, middle
 
 模型文件：
 
-- [畜禽养殖系统模型实验素材](data/畜禽养殖模型)
+- [磷循环模拟模型实验素材](data/磷循环模拟模型)
 ]
 
 .pull-right[
